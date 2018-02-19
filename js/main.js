@@ -3,8 +3,9 @@ $(document).ready(function(){
         $(".cuerpo").append(result);
     }});
 });//Document ready
-//------------------------------------------------
-//--- Funcion para borra version / DELETE
+
+
+//Funcion para borra version / DELETE
 function borrar(idVersion){
     var idEliminar =  idVersion.id;
     $(".NombreVersionEliminar").html($(idVersion).parent().siblings("td.nombreJuegoTabla").html());
@@ -38,8 +39,7 @@ function borrar(idVersion){
         }
     });
 }
-//---------------------------------------------------
-//----Funcion para una nueva Version / CREATE
+//-Funcion para una nueva Version / CREATE
 function nuevaVersion(){
     $(".btn-version").addClass("disabled");
     $.get("formulario.php",
@@ -91,7 +91,7 @@ function guardarDatos(){
         $(".cuerpo").append(data);
     });
 }
-//----------------------------------------------------------
+
 //Modificar el registro / UPDATE
 function modificarVersion(elemento){
     // Recoger los datos
@@ -177,7 +177,7 @@ function modificarVersion(elemento){
         }
     });
 }
-//--------------------------------------------------
+
 //  ORDER BY  ---Investigar como hacerlo desde html por ahoraa lo hace con diferentes consultas
 
 function ordenar(){
