@@ -25,6 +25,13 @@
   -----------------------
 
   ## Mejoras:
+=======
+
+
+
+  -----------------------
+
+  ## Mejoras:
    * Paginación
    * Jquery Validate Remote para comprobar que ya existe un campo en la BBDD
    * Busqueda Avanzada, autocompletado BBDD
