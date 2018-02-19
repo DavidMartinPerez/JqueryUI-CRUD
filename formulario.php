@@ -57,7 +57,7 @@
         </select>
     </td>
     <td>
-        <a><button type="submit" onclick="validar()" class="btn amber darken-4"><i class="material-icons">save</i></button></a>
+        <a><button type="submit" onclick="guardarDatos()" class="btn amber darken-4"><i class="material-icons">save</i></button></a>
         <a><button type="button" onclick="cancelarFormulario();" class="btn red darken-2"><i class="material-icons">cancel</i></button></a>
         </form>
     </td>

@@ -50,25 +50,25 @@ function nuevaVersion(){
                         dateFormat: "yy-mm-dd"
                     });
     });
-    $("#formNuevoVersion").validate({//Validate
-        rules: {
-          precioNV: {required: true,min: 1, maxlength: 10},
-          stockNV:{required:true, min: 1, maxlength: 10},
-          fechaNV:{required:true}
-        },
-        messages:{
-          precioNV: "Longitud errónea",
-          stockNV: "Longitud errónea",
-          fechaNV: "Fecha obligatoria"
-        },
-        submitHandler: function(form){//Si el validate funciona lo manda post
-            guardarDatos();
-        }
-    })
+    // $("#formNuevoVersion").validate({//Validate
+    //     rules: {
+    //       precioNV: {required: true,min: 1, maxlength: 10},
+    //       stockNV:{required:true, min: 1, maxlength: 10},
+    //       fechaNV:{required:true}
+    //     },
+    //     messages:{
+    //       precioNV: "Longitud errónea",
+    //       stockNV: "Longitud errónea",
+    //       fechaNV: "Fecha obligatoria"
+    //     },
+    //     submitHandler: function(form){//Si el validate funciona lo manda post
+    //         guardarDatos();
+    //     }
+    // })
 }
-function validar(){
-    $("#formNuevoVersion").submit();
-}
+// function validar(){
+//     $("#formNuevoVersion").submit();
+// }
 
 function cancelarFormulario(){
     $("#formularioNuevo").fadeOut(350, function(){
